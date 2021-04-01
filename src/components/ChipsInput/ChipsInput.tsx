@@ -92,7 +92,6 @@ const ChipsInput = <Option extends ChipsInputOption>(props: ChipsInputProps<Opti
       getRootRef={getRootRef}
       vkuiClass={classNames('ChipsInput', `ChipsInput--sizeY-${sizeY}`, {
         'ChipsInput--focused': focused,
-        'ChipsInput--disabled': disabled,
         'ChipsInput--withChips': !!selectedOptions.length,
       })}
       className={className}
